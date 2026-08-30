@@ -9,6 +9,11 @@ const Header = ({ toggleModal, nbOfContacts }) => {
       <div className="container">
         <h3>
           <Link to="" className="nav-link">
+            <img
+              className="logo-image contact_image"
+              src="/contact-icon.png"
+              alt="Contact Log"
+            />
             Contact List({nbOfContacts})
           </Link>
         </h3>
